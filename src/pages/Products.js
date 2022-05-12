@@ -46,7 +46,8 @@ const Products = () => {
 const Wrapper = styled.section`
   .products {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
+    place-items: center;
     gap: 1rem;
     @media (min-width: 680px) {
       grid-template-columns: repeat(3, 1fr);
